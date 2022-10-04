@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+}
+
+li a {
+    font-size: 1.5rem;
+    color: white;
+}
+li a:hover {
+    color: aquamarine;
+}
+
+.input {
+    width: 300px;
+}
+
+/* Font Awesome */
+.text-icon::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f007";
+}
+
+/* Bootstrap Icons
+asfasfas::before {
+    content: "\F4D7";
+    font-family: "bootstrap-icons";
+} */
+
+input {
+    margin: 0 auto;
+}
+
+.alert {
+    width: 500px;
+    margin: 0 auto;
+}

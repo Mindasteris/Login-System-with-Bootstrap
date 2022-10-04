@@ -1,0 +1,8 @@
+CREATE DATABASE demo_login;
+
+CREATE TABLE users (
+    id int(11) PRIMARY AUTO_INCREMENT,
+    username VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255)
+);
